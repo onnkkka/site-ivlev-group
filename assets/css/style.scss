@@ -1,0 +1,132 @@
+$color1: rgb(26, 255, 255);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.meny-wrapper {
+  width: 100%;
+  height: 6vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 100%;
+  background-color: rgb(61, 67, 73);
+}
+.logo-wrapper {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(6, 17%);
+  grid-template-rows: 100%;
+}
+.logo-image {
+  grid-column: span 4;
+}
+.logo-name {
+  grid-column: span 2;
+  font-family: "Roboto Condensed";
+  justify-content: center;
+  align-self: center;
+  font-size: 2vw;
+  color: white;
+  user-select: none;
+  transition-duration: 0.4s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.functios-wrapper {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5, 14%);
+  grid-template-rows: 100%;
+}
+.about-us {
+  font-family: "Roboto Condensed";
+  align-self: center;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  user-select: none;
+  transition-duration: 0.4s;
+  &:hover {
+    color: rgb(26, 255, 255);
+    font-size: 0.88vw;
+  }
+}
+.portfolio {
+  font-family: "Roboto Condensed";
+  align-self: center;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  user-select: none;
+  transition-duration: 0.4s;
+  &:hover {
+    color: $color1;
+    font-size: 0.88vw;
+  }
+}
+.services {
+  font-family: "Roboto Condensed";
+  align-self: center;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  user-select: none;
+  transition-duration: 0.4s;
+  &:hover {
+    color: $color1;
+    font-size: 0.88vw;
+  }
+}
+.vacancy {
+  font-family: "Roboto Condensed";
+  align-self: center;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  user-select: none;
+  transition-duration: 0.4s;
+  &:hover {
+    color: $color1;
+    font-size: 0.88vw;
+  }
+}
+.contacts {
+  font-family: "Roboto Condensed";
+  align-self: center;
+  font-size: 0.9vw;
+  color: white;
+  text-align: center;
+  user-select: none;
+  transition-duration: 0.4s;
+  &:hover {
+    color: $color1;
+    font-size: 0.88vw;
+  }
+}
+.contacts-wrapper {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+.contacts-number {
+  font-family: "Roboto Condensed";
+  align-self: center;
+  font-size: 1.1vw;
+  color: white;
+  text-align: start;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  user-select: none;
+  &:hover {
+    color: $color1;
+    font-size: 1.08vw;
+  }
+}
